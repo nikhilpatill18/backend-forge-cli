@@ -1,0 +1,29 @@
+{
+  "name": "express-secure-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch server.js",
+    "debug": "ndb server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^8.2.1",
+    "fs-extra": "^11.3.2",
+    "helmet": "^8.1.0",
+    "hpp": "^0.2.3",
+    "install": "^0.13.0",
+    "mongoose": "^9.0.0",
+    "xss-clean": "^0.1.4"
+  }
+}

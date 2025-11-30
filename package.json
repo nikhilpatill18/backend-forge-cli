@@ -1,0 +1,25 @@
+{
+  "name": "backend-forge",
+  "version": "1.0.0",
+  "description": "CLI tool to generate a secure Express + Mongoose backend",
+  "main": "bin/backend-forge.js",
+  "bin": {
+    "backend-forge": "./bin/backend-forge.js"
+  },
+  "scripts": {
+    "start": "node bin/backend-forge.js"
+  },
+  "keywords": [
+    "cli",
+    "express",
+    "backend",
+    "template",
+    "generator",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.3.2"
+  }
+}
